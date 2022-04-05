@@ -1,0 +1,223 @@
+@font-face {
+  font-family: 'conthrax_semibold_italicSBdIt';
+  src: url('conthrax_semibold_italic-webfont.woff2') format('woff2'),
+       url('conthrax_semibold_italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'conthrax_regular_italicRgIt';
+  src: url('./fonts/conthrax_regular_italic-webfont.woff2') format('woff2'),
+       url('./fonts/conthrax_regular_italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'conthrax_bold_italicBdIt';
+  src: url('./fonts/conthrax_bold_italic-webfont.woff2') format('woff2'),
+       url('./fonts/conthrax_bold_italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'conthrax_extralight_italXLtIt';
+  src: url('./fonts/conthrax_extralight_italic-webfont.woff2') format('woff2'),
+       url('./fonts/conthrax_extralight_italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'conthrax_light_italicLtIt';
+  src: url('./fonts/conthrax_light_italic-webfont.woff2') format('woff2'),
+       url('./fonts/conthrax_light_italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'conthrax_book_italicBkIt';
+  src: url('conthrax_book_italic-webfont.woff2') format('woff2'),
+       url('conthrax_book_italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'conthrax_heavy_italicHvIt';
+  src: url('./fonts/conthrax_heavy_italic-webfont.woff2') format('woff2'),
+       url('./fonts/conthrax_heavy_italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'conthrax_semiboldsemibold';
+  src: url('./fonts/conthrax_semibold-webfont.woff2') format('woff2'),
+       url('./fonts/conthrax_semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'conthrax_boldbold';
+  src: url('./fonts/conthrax_bold-webfont.woff2') format('woff2'),
+       url('./fonts/conthrax_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'conthrax_regularregular';
+  src: url('./fonts/conthrax_regular-webfont.woff2') format('woff2'),
+       url('./fonts/conthrax_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'conthrax_extralightextralight';
+  src: url('./fonts/conthrax_extralight-webfont.woff2') format('woff2'),
+       url('./fonts/conthrax_extralight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'conthrax_lightlight';
+  src: url('./fonts/conthrax_light-webfont.woff2') format('woff2'),
+       url('./fonts/conthrax_light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+
+.video-frame > iframe {
+  display: flex;
+  justify-content: center;
+  min-width: 100%; 
+  min-height: 100%; 
+  width: 100vw;
+}
+.video-frame {
+  display: flex;
+  height: 60vw;
+ 
+
+
+}
+
+h1, p, .subtitle {
+   color: #fff;
+  text-shadow:
+    0 0 1px #fff,
+    0 0 1.1px #fff,
+    0 0 1.2px #fff,
+    0 0 4px rgba(255, 255, 0, 1),
+    0 0 8px rgba(255, 255, 0, 0.2),
+    0 0 8px rgba(255, 255, 0, 0.3),
+    0 0 12px rgba(255, 255, 0, 0.2),
+    0 0 30px rgba(255, 255, 0, 0.2);
+}
+
+h1 {
+  font-family: 'conthrax_light_italicLtIt';
+  padding-top: 15px;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+p {
+  font-family: 'conthrax_lightlight';
+  padding-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 3px;
+
+
+}
+
+.subtitle {
+  font-family: 'conthrax_lightlight';
+  padding-top: 15px;
+  text-align: center;
+  font-size: 19px;
+}
+
+.badge_container {
+  position: relative;
+  width: 400px;
+  height: 700px;
+  border-style: none;
+  border-color: white;
+  border-width: 3px;
+  top: 50px;
+  margin: auto;
+
+
+}
+
+.spotify_badge {
+  position: absolute;
+  padding-top: 30px;
+  width: 250px;
+  top: 400px;
+  left: 74px;
+}
+
+.apple_badge {
+  margin-top: -5px;
+  background: white;
+  padding: 5px;
+  padding-top: 8px;
+  border-radius: 12px;
+  position: absolute;
+  width: 250px;
+  top: 515px;
+  left: 74px;
+}
+
+.youtube_badge {
+  position: absolute;
+  padding-top: 20px;
+  width: 253px;
+  top: 572px;
+  left: 72px;
+}
+
+.album_cover {
+  max-width: 100%;
+  border-radius: 30px;
+}
+
+.social_container {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
